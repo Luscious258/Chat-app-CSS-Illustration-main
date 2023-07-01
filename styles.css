@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    max-width: 1600px;
+}
+
+.background-1{
+    background:linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%)) ;
+    position: absolute;
+    left: -100px;
+    width: 600px;
+    height: 95%;
+    border-bottom-right-radius:     300px;
+    border-bottom-left-radius:     300px;
+}
+
+.background-2{
+    background:linear-gradient(hsl(293, 100%, 63%, 0.05), hsl(264, 100%, 61%, 0.05)) ;
+    position: fixed;
+    left: 1250px;
+    top: 55px;
+    width: 600px;
+    height: 94%;
+    border-top-right-radius:     300px;
+    border-top-left-radius:     300px; 
+    float: right;
+}
+
+.wrap{
+    background-color: hsl(270, 20%, 96%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Rubik;
+}
+
+.app-ui{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 20px 50px 100px -100px rgb(163, 162, 162);
+    margin-right: 200px;
+    margin-right: 433px;
+    position: absolute;
+}
+
+.booking{
+    width: 450px;
+    margin-left: 600px;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: hsl(271, 36%, 24%);
+}
+
+h1, h4{
+    font-weight: 500;
+}
+
+.booking > p{
+    color: hsl(270, 7%, 64%);
+    line-height: 1.8;
+}
+
+.head{
+    width: 270px;
+    height: 75px;
+    background-color: hsl(264, 100%, 61%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h4{
+    color: white;
+    font-size: 15px;
+    
+}
+
+.profile{
+    margin-left: 10px;
+    margin-right: 7 0px;
+}
+
+span{
+    color: white;
+    display: block;
+    margin-left: 80px;
+    position: relative;
+    right: 5px;
+}
+
+.back{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 5px;
+    width: 8px;
+}
+
+svg{
+    font-size: 100px;
+}
+
+.profile > p{
+    color: hsl(276, 100%, 81%);
+    font-size: 11px;
+   
+}
+
+.avatar{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 30px;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.box{
+    background-color: white;
+    width: 150px;
+    height: 20px;
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.app{
+    width: 270px;
+    height: 490px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: hsl(270, 20%, 96%);
+    padding: 10px;
+}
+
+.message{
+    display: block;
+    background-color: white;
+    border-radius: 20px;
+    border: 0;
+    width: 250px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+.dogs{
+    width: 50px;
+    border-radius: 15px;
+    margin-right: 10px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.dogs-1{
+    margin-right: 0;
+}
+
+.msg-1, .msg-2{
+    background-color:  hsl(278, 12%, 87%);
+    color: hsl(276, 55%, 52%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+    font-size: 10px;
+    width: 62%;
+    margin-bottom: 10px;
+}
+
+.msg-3, .msg-4{
+    background-color: white;
+    color: hsl(271, 15%, 43%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.msg-3{
+    width: 63%;
+    margin-left: 30px;
+    box-shadow: 0px 1px 10px -3px rgb(185, 184, 184);
+}
+
+.msg-4{
+    width: 40%;
+    box-shadow: 0px 1px 10px -3px rgb(185, 184, 184);
+}
+
+.msg-5{
+    background-color:  hsl(278, 12%, 87%);
+    color: hsl(276, 55%, 52%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+    font-size: 10px;
+    width: 62%;
+    margin-top: 170px;
+    margin-bottom: 10px;
+}
+
+.radio{
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    font-size: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 7px;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.button{
+    margin-right: 10px;
+}
+
+input[type="radio"]{
+    appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 2px solid hsl(289, 100%, 72%);
+  border-radius: 50%; 
+  outline: none;
+}
+
+input[type="radio"]:checked {
+    border-color:hsl(289, 100%, 72%);
+  }
+
+section{
+    margin-left: 51px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sec-2{
+    padding-left: 24px;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: hsl(271, 36%, 24%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    bottom: 30px;
+    right: 5px;
+    float: right;
+}
+
+::placeholder{
+    font-size: 10px;
+    padding-left: 10px;
+    color: hsl(206, 6%, 79%);
+}
+
+
+footer { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
